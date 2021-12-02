@@ -23,6 +23,6 @@ main {
   height: 500px;
 }
 
-.section-name-container , .section-option-container , .section-radio-container {
+.section-name-container {
   display: flex;
 }
