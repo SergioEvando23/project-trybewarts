@@ -23,3 +23,6 @@ main {
   height: 500px;
 }
 
+.section-name-container {
+  display: flex;
+}
