@@ -25,14 +25,29 @@
         <input id="input-name" type="text" placeholder="Nome">
         <input id="input-lastname" type="text" placeholder="Sobrenome">
       </section>
-      <section>
+      <section class="section-option-container">
         <input id="input-email" type="email" placeholder="Email">
         <select id="house">
-            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-            <option id="corvinode-house" value="Corvinode">Corvinode</option>
-            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
+      </section>
+      <label id="label-family">
+        Qual sua família?
+      </label>
+      <section class="section-radio-container">
+        <input id="radio-frontend" type="radio" value="Frontend" placeholder="Frontend">
+        <label for="radio-frontend"> Família Frontend</label>
+      </section>
+      <section class="section-radio-container">
+        <input id="radio-backend" type="radio" value="Backend" placeholder="Backend">
+        <label for="radio-backend"> Família Backend</label>
+      </section>
+      <section class="section-radio-container">
+        <input id="radio-fullstack" type="radio" value="FullStack" placeholder="FullStack">
+        <label for="radio-fullstack"> Família FullStack</label>
       </section>
     </form>
     <img id="trybewarts-forms-logo" class="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
