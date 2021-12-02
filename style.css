@@ -11,3 +11,12 @@
 .trybewarts-header-logo {
   width: 3em;
 }
+
+main {
+  display: flex;
+}
+
+.evalution-form {
+  display: flex;
+  width: 675px;
+}
