@@ -8,10 +8,6 @@
   display: flex;
 }
 
-.trybewarts-header-logo {
-  width: 3em;
-}
-
 main {
   display: flex;
   justify-content: space-around;
@@ -24,5 +20,6 @@ main {
 }
 
 .trybewarts-forms-logo {
-  height: 500px
+  height: 500px;
 }
+

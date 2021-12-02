@@ -1,11 +1,11 @@
-const inputEmail = document.getElementById('input-email');
-const inputPass = document.getElementById('input-pass');
+const inputEmailHeader = document.getElementById('input-email-header');
+const inputPassHeader = document.getElementById('input-pass-header');
 const submitLogin = document.getElementById('button-submit-login');
 const validEmail = 'tryber@teste.com';
 const validPass = '123456';
 
 submitLogin.onclick = () => {
-  if (inputEmail.value === validEmail && inputPass.value === validPass) {
+  if (inputEmailHeader.value === validEmail && inputPassHeader.value === validPass) {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
