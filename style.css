@@ -1,7 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  height: 8vh;
+  margin-bottom: 10vh;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 8vh;
 }
 
 .trybewarts-login {
@@ -33,4 +45,5 @@ footer {
   left: 0;
   right: 0;
   text-align: center;
+  background-color: #606060;
 }
