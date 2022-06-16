@@ -34,84 +34,91 @@
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </section>
+      <section id="section-family">
+        <div>
+          <label id="label-family">Qual sua família?</label>
+          <section class="section-radio-container">
+            <input name="family" id="radio-frontend" type="radio" value="Frontend" placeholder="Frontend">
+            <label for="radio-frontend"> Família Frontend</label>
+          </section>
+          <section class="section-radio-container">
+            <input name="family" id="radio-backend" type="radio" value="Backend" placeholder="Backend">
+            <label for="radio-backend"> Família Backend</label>
+          </section>
+          <section class="section-radio-container">
+            <input name="family" id="radio-fullstack" type="radio" value="FullStack" placeholder="FullStack">
+            <label for="radio-fullstack"> Família FullStack</label>
+          </section>
+        </div>
 
-      <label id="label-family">Qual sua família?</label>
-      <section class="section-radio-container">
-        <input name="family" id="radio-frontend" type="radio" value="Frontend" placeholder="Frontend">
-        <label for="radio-frontend"> Família Frontend</label>
-      </section>
-      <section class="section-radio-container">
-        <input name="family" id="radio-backend" type="radio" value="Backend" placeholder="Backend">
-        <label for="radio-backend"> Família Backend</label>
-      </section>
-      <section class="section-radio-container">
-        <input name="family" id="radio-fullstack" type="radio" value="FullStack" placeholder="FullStack">
-        <label for="radio-fullstack"> Família FullStack</label>
-      </section>
+        <div>
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <section>
+            <input id="HoFs" type="checkbox" value="HoFs">
+            <label for="HoFs">HoFs</label>
 
-      <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <input id="Jest" type="checkbox" value="Jest">
+            <label for="Jest">Jest</label>
 
-      <section>
-        <input id="HoFs" type="checkbox" value="HoFs">
-        <label for="HoFs">HoFs</label>
-      
-        <input id="Jest" type="checkbox" value="Jest">
-        <label for="Jest">Jest</label>
-      
-        <input id="Promises" type="checkbox" value="Promises">
-        <label for="Promises">Promises</label>
-      </section>
+            <input id="Promises" type="checkbox" value="Promises">
+            <label for="Promises">Promises</label>
+          </section>
 
-      <section>
-        <input id="React" type="checkbox" value="React">
-        <label for="React">React</label>
-      
-        <input id="SQL" type="checkbox" value="SQL">
-        <label for="SQL">SQL</label>
-      
-        <input id="Python" type="checkbox" value="Python">
-        <label for="Python">Python</label>
+          <section>
+            <input id="React" type="checkbox" value="React">
+            <label for="React">React</label>
+
+            <input id="SQL" type="checkbox" value="SQL">
+            <label for="SQL">SQL</label>
+
+            <input id="Python" type="checkbox" value="Python">
+            <label for="Python">Python</label>
+          </section>
+        </div>
       </section>
 
       <section class="evaluator">
         <label id="label-rate">Como você avalia a Trybewarts?</label>
-        <input id="radio1" type="radio" name="rate" value="1" /> 
+        <input id="radio1" type="radio" name="rate" value="1" />
         <label for="radio1">1</label>
-        <input id="radio2" type="radio" name="rate" value="2" /> 
+        <input id="radio2" type="radio" name="rate" value="2" />
         <label for="radio2">2</label>
-        <input id="radio3" type="radio" name="rate" value="3" /> 
+        <input id="radio3" type="radio" name="rate" value="3" />
         <label for="radio3">3</label>
-        <input id="radio4" type="radio" name="rate" value="4" /> 
+        <input id="radio4" type="radio" name="rate" value="4" />
         <label for="radio4">4</label>
-        <input id="radio5" type="radio" name="rate" value="5" /> 
+        <input id="radio5" type="radio" name="rate" value="5" />
         <label for="radio5">5</label>
-        <input id="radio6" type="radio" name="rate" value="6" /> 
+        <input id="radio6" type="radio" name="rate" value="6" />
         <label for="radio6">6</label>
-        <input id="radio7" type="radio" name="rate" value="7" /> 
+        <input id="radio7" type="radio" name="rate" value="7" />
         <label for="radio7">7</label>
-        <input id="radio8" type="radio" name="rate" value="8" /> 
+        <input id="radio8" type="radio" name="rate" value="8" />
         <label for="radio8">8</label>
-        <input id="radio9" type="radio" name="rate" value="9" /> 
+        <input id="radio9" type="radio" name="rate" value="9" />
         <label for="radio9">9</label>
-        <input id="radio10" type="radio" name="rate" value="10"/> 
-         <label for="radio10">10</label>
+        <input id="radio10" type="radio" name="rate" value="10" />
+        <label for="radio10">10</label>
       </section>
 
       <label for="textarea" class="textarea">Deixe seu comentário:</label>
-      <textarea id="textarea" class="textarea" maxlength="500"></textarea>
+      <textarea id="textarea" class="textarea" maxlength="500" rows="5"></textarea>
 
       <section id="authorization-section">
         <label id="label-infos">Você concorda com o uso das informações acima?</label>
         <input id="agreement" type="checkbox" />
       </section>
 
-      <button id="submit-btn" type="submit" disabled >Enviar</button>
+      <button id="submit-btn" type="submit" disabled>Enviar</button>
     </form>
     <footer>
       <p>Direitos reservados à Trybewarts©</p>
     </footer>
     <img id="trybewarts-forms-logo" class="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
   </main>
+
+  <img class="selector-helmet" src="./images/logo.jpeg" width="40px" alt="chapel-seletor">
+
   <script src="script.js"></script>
 </body>
 

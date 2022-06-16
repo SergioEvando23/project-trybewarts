@@ -13,6 +13,7 @@ submitLogin.onclick = () => {
     alert('Email ou senha inválidos.');
   }
 };
+
 authorization.addEventListener('click', () => {
   if (authorization.checked === true) {
     buttonSendForm.disabled = false;
